@@ -1,4 +1,4 @@
-# AnaFor
+# anafor
 
 ## Installation
 
@@ -16,7 +16,7 @@ python anafor.py
 
 ## License
 
-AnaFor is released under the MIT License. See [LICENSE](LICENSE) for more information.
+anafor is released under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Contributors
 
