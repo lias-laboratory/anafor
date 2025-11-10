@@ -22,7 +22,7 @@ anafor is released under the MIT License. See [LICENSE](LICENSE) for more inform
 
 - [Henri Bauer](https://www.lias-lab.fr/members/henribauer/), LIAS, ISAE-ENSMA, France
 - [Frédéric Ridouard](https://www.lias-lab.fr/members/fredericridouard/), LIAS, ISAE-ENSMA, France
-- [Pascal Richard](https://www.lias-lab.fr/members/pascalrichard/), LIAS, ISAE-ENSMA, France
+- [Pascal Richard](https://www.lias-lab.fr/members/pascalrichard/), LIAS, University of Poitiers, France
 - [Georges Kemayo](https://www.lias-lab.fr/members/georgeskemayo/), LIAS, ISAE-ENSMA, France
 - [Nassima Benamar](https://www.lias-lab.fr/members/nassimabenammar/), LIAS, ISAE-ENSMA, France
-- [Richard Garreau](https://www.lias-lab.fr/members/richardgarreau/), LIAS, ISAE-ENSMA, France
+- [Richard Garreau](https://www.lias-lab.fr/members/richardgarreau/), LIAS, University of Poitiers, France
