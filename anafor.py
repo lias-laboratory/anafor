@@ -1,18 +1,15 @@
 """Test AnaFor with various options."""
 
 from datetime import datetime
-import conf.afdx
+from conf.afdx import Configuration
 from exporter.buffer import BufferGraph, BufferCSV
 from exporter.flow import FlowCSV
 from tools.bufdim import BufDim
 from tools.fa import FA
-import tools.fa as fa_
-import exporter.base as exporter_
-import resource
 
 # Choice of a network configuration file from assets folder
 CONF_NAME = 'fpfifo'
-config = conf.afdx.Configuration.from_mod_file(CONF_NAME, latency=16)
+config = Configuration.from_mod_file(CONF_NAME, latency=16)
 
 # Select several analysis tools
 # (the existing analysis classes can be found in the tools folder)
