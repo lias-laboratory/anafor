@@ -60,7 +60,6 @@ class NodeSerial(Node):
             yield (src, (CTJs, max_C, rratio))
 
     @staticmethod
-    @lru_cache(maxsize=None)
     def _get_stimes_by_src(rbfsx, CTJx, max_C, rratio):
         """Find intersections times between rbfx and LinkRate curves."""
         bklg = RBF_val(CTJx, 0) - max_C
@@ -214,7 +213,6 @@ class NodePrioSerial(NodeSerial):
         return rbfs
 
     @staticmethod
-    @lru_cache(maxsize=None)
     def _get_stimes_by_src(rbfsx, CTJspx, CTJhpx, max_C, rratio):
         """Find intersections times between rbfx and LinkRate curves."""
         bklg = (RBF_val(CTJspx, 0)
