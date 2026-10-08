@@ -10,16 +10,18 @@ import tools.fa as fa_
 import exporter.base as exporter_
 import resource
 
-# Choice of a network configuration file from conf folder
+# Choice of a network configuration file from assets folder
 CONF_NAME = 'fpfifo'
 config = conf.afdx.Configuration.from_mod_file(CONF_NAME, latency=16)
 
 # Select several analysis tools
+# (the existing analysis classes can be found in the tools folder)
 fa = FA(config, serialization=False, prio=True)
 fas = FA(config, serialization=True, prio=True)
 bd = BufDim(config, fas, serialization=True)
 
 # Log output as CSV or TikZ figures
+# (the existing exporter classes can be found in the exporter folder)
 config.register(BufferCSV, timestamp=False)
 config.register(FlowCSV, timestamp=False)
 config.register(BufferGraph, timestamp=False)
@@ -29,5 +31,5 @@ fa.compute_all()
 fas.compute_all()
 bd.compute_all()
 
-# Render logs to the export folder
+# Render the output of each registered exporter to the export folder
 config.render_all()
