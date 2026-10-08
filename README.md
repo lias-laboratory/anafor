@@ -1,4 +1,12 @@
 # anafor
+## Description
+A Forward analysis (FA) computation tool, written in Python.  The Forward Analysis can be conducted for FIFO or FP/FIFO multicast network configurations, with or without flow serialization. The analysis can be made in terms of:
+
+- worst-case end-to-end delays for each flow,
+- buffer use in switch output ports in terms of bytes,
+- buffer use in switch output ports en terms of frames.
+
+The results of the analysis can be found in the `export` folder.
 
 ## Installation
 
@@ -9,6 +17,8 @@ python -m pip install -r requirements.txt
 ```
 
 ## Run
+
+Run a computation on a sample network configuration, found in the `assets` folder.
 
 ```bash
 python anafor.py
