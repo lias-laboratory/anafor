@@ -1,6 +1,6 @@
-# anafor
+# PyFA
 ## Description
-A Forward analysis (FA) computation tool, written in Python.  The Forward Analysis can be conducted for FIFO or FP/FIFO multicast network configurations, with or without flow serialization. The analysis can be made in terms of:
+A Forward analysis (FA) computation tool, written in Python. The Forward Analysis can be conducted for FIFO or FP/FIFO multicast network configurations, with or without flow serialization. The analysis can be made in terms of:
 
 - worst-case end-to-end delays for each flow,
 - buffer use in switch output ports in terms of bytes,
@@ -21,18 +21,18 @@ python -m pip install -r requirements.txt
 Run a computation on a sample network configuration, found in the `assets` folder.
 
 ```bash
-python anafor.py
+python main.py
 ```
 
 ## License
 
-anafor is released under the MIT License. See [LICENSE](LICENSE) for more information.
+PyFA is released under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Contributors
 
 - [Henri Bauer](https://www.lias-lab.fr/members/henribauer/), LIAS, ISAE-ENSMA, France
 - [Frédéric Ridouard](https://www.lias-lab.fr/members/fredericridouard/), LIAS, ISAE-ENSMA, France
-- [Pascal Richard](https://www.lias-lab.fr/members/pascalrichard/), LIAS, University of Poitiers, France
+- [Pascal Richard](https://www.lias-lab.fr/members/pascalrichard/), LIAS, Université de Poitiers, France
 - [Georges Kemayo](https://www.lias-lab.fr/members/georgeskemayo/), LIAS, ISAE-ENSMA, France
 - [Nassima Benamar](https://www.lias-lab.fr/members/nassimabenammar/), LIAS, ISAE-ENSMA, France
-- [Richard Garreau](https://www.lias-lab.fr/members/richardgarreau/), LIAS, University of Poitiers, France
+- [Richard Garreau](https://www.lias-lab.fr/members/richardgarreau/), LIAS, Université de Poitiers, France
